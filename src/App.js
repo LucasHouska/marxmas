@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 import './App.css';
 
 function App() {
@@ -29,52 +28,52 @@ function App() {
 
     if (string === '@92') {
       setShowOn(true)
-    } else if(string === '*74') {
+    } else if (string === '*74') {
       setShowGreen(true)
     }
-    else if(string === '$16') {
+    else if (string === '$16') {
       setShowSpikes(true)
     }
-    else if(string === '$03') {
+    else if (string === '$03') {
       setShowI(true)
     }
-    else if(string === '?49') {
+    else if (string === '?49') {
       setShowSit(true)
     }
-    else if(string === '*90') {
+    else if (string === '*90') {
       setShowSpreading(true)
     }
-    else if(string === '@90') {
+    else if (string === '@90') {
       setShowChristmas(true)
     }
-    else if(string === '*16') {
+    else if (string === '*16') {
       setShowSpirit(true)
     }
-    else if(string === '$18') {
+    else if (string === '$18') {
       setShowForThe(true)
     }
-    else if(string === '?39') {
+    else if (string === '?39') {
       setShowFamily(true)
     }
-    else if(string === '$09') {
+    else if (string === '$09') {
       setShowThat(true)
     }
-    else if(string === '?04') {
+    else if (string === '?04') {
       setShowStays(true)
     }
-    else if(string === '$90') {
+    else if (string === '$90') {
       setShowFit(true)
     }
-    else if(string === '*49') {
+    else if (string === '*49') {
       setShowX(true)
     }
-    else if(string === '@10') {
+    else if (string === '@10') {
       setShowMarks(true)
     }
-    else if(string === '*39') {
+    else if (string === '*39') {
       setShowThe(true)
     }
-    else if(string === '$91') {
+    else if (string === '$91') {
       setShowSpot(true)
     }
     else {
@@ -89,7 +88,7 @@ function App() {
     <div className="App">
       <form className='form' onSubmit={handleSubmit}>
         <label id='label'>* # #</label>
-        <input id='input' value={string} onChange={event => {setString(event.target.value)}}/>
+        <input id='input' value={string} onChange={event => { setString(event.target.value) }} />
         <button onClick={handleSubmit}>Submit</button>
       </form>
       <div id='image'>
